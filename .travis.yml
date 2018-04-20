@@ -1,5 +1,7 @@
 deploy:
   provider: azure_web_apps
+  on:
+    all_branches: true
 language: node_js
 node_js:
   - "6"
