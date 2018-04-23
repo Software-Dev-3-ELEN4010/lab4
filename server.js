@@ -29,7 +29,7 @@ app.use(bodyParser.json())
 
 app.use(bodyParser.urlencoded({extended: true}))
 
-var port = config.APP_PORT || 3000
+var port = process.env.PORT || config.APP_PORT
 
 app.listen(port) // Listen on port defined in config file
 
