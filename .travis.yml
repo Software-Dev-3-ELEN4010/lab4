@@ -1,2 +1,8 @@
 deploy:
   provider: azure_web_apps
+  username: "DevOpsBilboCuntPants"
+  password: "Password123"
+  site: "AzureTestEIEDev3"
+language: node_js
+node_js:
+  - "6"
