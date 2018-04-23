@@ -1,6 +1,6 @@
 "use strict";
 var chai = require("chai");
-var todoList = require('../todoList');
+// var todoList = require('../todoList');
 chai.should();
 
 describe("Hello", function() { 
@@ -12,14 +12,14 @@ describe("Hello", function() {
 	});
 });
 
-describe("Add", function() {
-	describe("One", function() {
-		it("One addition should add one item", function() {
-			todoList.add('item');
-			var firstItem = todoList.get(0);
-			firstItem.should.equal('item');
-		});
-	});
-});
+// describe("Add", function() {
+// 	describe("One", function() {
+// 		it("One addition should add one item", function() {
+// 			todoList.add('item');
+// 			var firstItem = todoList.get(0);
+// 			firstItem.should.equal('item');
+// 		});
+// 	});
+// });
 
 //comment
